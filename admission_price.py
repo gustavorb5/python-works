@@ -15,3 +15,4 @@ while welcome != "":
         'Welcome to Gusty\'s Zoo. As part of a group, please indicate the age of each individual of the group: ')
 total = round(total, 2)
 print(f'The price for the group is ${total}')
+# comment to check git
