@@ -32,4 +32,4 @@ def ordinal_number(x):
     return ordinal
 
 
-print(ordinal_number(number))
+# print(ordinal_number(number))
