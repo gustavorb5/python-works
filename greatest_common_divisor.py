@@ -1,8 +1,12 @@
-num1 = int(input('Enter a number: '))
-num2 = int(input('Enter a number: '))
-while num1 % num2 != 0:
-    num2 = num1 % num2
-    gcd = num1 % num2
-if gcd == 0:
-    print(f'{num2} is the GCD')
+x = int(input('Enter a number: '))
+y = int(input('Enter a number: '))
+
+
+def something(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+
 # me vuelvo locooooooooo me salioooooo
+print(something(x, y))
